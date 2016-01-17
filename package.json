@@ -1,0 +1,15 @@
+{
+  "name": "jasmine-moment-matchers",
+  "version": "1.0.0",
+  "description": "Matchers for use with Jasmine testing framework and moment.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jasmine",
+    "testing"
+  ],
+  "author": "Matt Newman",
+  "license": "ISC"
+}
