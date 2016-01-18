@@ -4,12 +4,21 @@
   "description": "Matchers for use with Jasmine testing framework and moment.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "jshint **.js",
+    "test": "jasmine"
   },
   "keywords": [
     "jasmine",
     "testing"
   ],
   "author": "Matt Newman",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jshint": "^2.9.1",
+    "moment": "^2.11.1"
+  },
+  "peerDependencies": {
+    "moment": ">=1.5.0 <3"
+  }
 }
