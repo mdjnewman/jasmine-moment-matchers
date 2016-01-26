@@ -4,9 +4,10 @@
   "description": "Matchers for use with Jasmine testing framework and moment.js",
   "main": "index.js",
   "scripts": {
-    "lint": "jshint **.js",
+    "lint": "jshint **.js lib/ spec/",
     "test": "jasmine",
-    "browserify" : "browserify lib/index.js -o dist/jasmine-moment-matchers.js"
+    "browserify" : "browserify lib/index.js -o dist/jasmine-moment-matchers.js",
+    "build" : "npm run lint && npm test && npm run browserify"
   },
   "keywords": [
     "jasmine",
