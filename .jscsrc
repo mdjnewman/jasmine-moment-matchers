@@ -1,4 +1,4 @@
 {
-    "preset": "jquery",
-    "fix": true
+  "preset": "jquery",
+  "fix": true
 }

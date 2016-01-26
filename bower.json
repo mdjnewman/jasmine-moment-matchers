@@ -15,7 +15,8 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "test",
-    "tests"
+    "lib",
+    "spec",
+    "index.js"
   ]
 }
