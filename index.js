@@ -1,5 +1,5 @@
 /*jslint node: true */
 
-'use strict';
+"use strict";
 
-module.exports = require('./dist/jasmine-moment-matchers');
+module.exports = require( "./dist/jasmine-moment-matchers" );
