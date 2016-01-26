@@ -1,0 +1,21 @@
+{
+  "name": "jasmine-moment-matchers",
+  "description": "Matchers for use with Jasmine testing framework and moment.js",
+  "main": "index.js",
+  "authors": [
+    "Matt Newman"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "jasmine",
+    "testing"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
