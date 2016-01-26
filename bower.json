@@ -17,6 +17,10 @@
     "bower_components",
     "lib",
     "spec",
-    "index.js"
+    "index.js",
+    "package.json"
+  ]
+  "main": [
+    "dist/jasmine-moment-matchers.js"
   ]
 }
