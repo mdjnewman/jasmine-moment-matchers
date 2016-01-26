@@ -1,7 +1,9 @@
 {
   "name": "jasmine-moment-matchers",
   "description": "Matchers for use with Jasmine testing framework and moment.js",
-  "main": "index.js",
+  "main": [
+    "dist/jasmine-moment-matchers.js"
+  ],
   "authors": [
     "Matt Newman"
   ],
@@ -19,8 +21,5 @@
     "spec",
     "index.js",
     "package.json"
-  ]
-  "main": [
-    "dist/jasmine-moment-matchers.js"
   ]
 }
