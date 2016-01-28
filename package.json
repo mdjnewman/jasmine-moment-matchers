@@ -4,7 +4,7 @@
   "description": "Matchers for use with Jasmine testing framework and moment.js",
   "main": "index.js",
   "scripts": {
-    "lint": "jshint **.js lib/ spec/ && jscs **.js lib/ spec/ && jsonlint --in-place .jscsrc *.json spec/**/*.json",
+    "lint": "jshint **.js lib/ spec/ && jscs **.js lib/ spec/ && jsonlint --in-place .jscsrc .jshintrc *.json spec/**/*.json",
     "test": "jasmine",
     "browserify": "browserify lib/index.js -o dist/jasmine-moment-matchers.js",
     "build": "npm run lint && npm test && npm run browserify"
